@@ -1,0 +1,39 @@
+body {
+  min-height: 100vh;
+}
+
+.card {
+  border: 0;
+}
+
+.dashboard-bg {
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+}
+
+.dashboard-card {
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(30, 41, 59, 0.08);
+}
+
+.border-dashed {
+  border-style: dashed !important;
+}
+
+.kpi-card {
+  background: #ffffff;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.kpi-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(30, 41, 59, 0.12);
+}
+
+pre {
+  max-height: 180px;
+  overflow: auto;
+  background: #f8fafc;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e2e8f0;
+}

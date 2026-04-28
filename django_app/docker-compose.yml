@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DJANGO_DEBUG: "0"
+      DJANGO_ALLOWED_HOSTS: "localhost,127.0.0.1"
+    volumes:
+      - ./media:/app/media
+      - ./logs:/app/logs

@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+python-multipart
+sqlalchemy
+pydantic-settings
+pdfplumber
+pytesseract
+Pillow
+python-dotenv
+reportlab
+openai
+alembic
+celery
+redis
+python-jose[cryptography]
+passlib[bcrypt]
+rapidfuzz

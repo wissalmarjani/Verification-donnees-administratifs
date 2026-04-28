@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# DB and uploads
+backend/smart_docs.db
+backend/uploads/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Env files
+.env
+backend/.env

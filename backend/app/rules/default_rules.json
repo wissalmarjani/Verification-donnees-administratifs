@@ -1,0 +1,10 @@
+[
+  { "field": "consignee", "rule": "fuzzy_equal", "threshold": 88, "severity": "ERROR" },
+  { "field": "packages", "rule": "must_be_equal", "severity": "ERROR" },
+  { "field": "gross_weight", "rule": "must_be_equal", "tolerance": 5, "severity": "ERROR" },
+  { "field": "commercial_weight", "rule": "must_be_equal", "tolerance": 5, "severity": "ERROR" },
+  { "field": "transport_unit_number", "rule": "must_be_equal", "severity": "ERROR" },
+  { "field": "incoterm", "rule": "must_be_equal", "severity": "ERROR" },
+  { "field": "destination", "rule": "fuzzy_equal", "threshold": 90, "severity": "ERROR" },
+  { "field": "transport_type", "rule": "must_be_equal", "severity": "ERROR" }
+]

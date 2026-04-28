@@ -1,0 +1,2 @@
+-- Baseline migration placeholder.
+-- In production run: alembic revision --autogenerate -m "baseline" then alembic upgrade head

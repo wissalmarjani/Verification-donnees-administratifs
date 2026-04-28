@@ -1,0 +1,32 @@
+2026-04-27 15:00:39,993 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2026-04-27 15:01:51,375 [INFO] analyzer.pipeline: Pipeline completed for document_set=1 status=ERROR
+2026-04-27 15:01:51,395 [INFO] django.server: "POST /api/v1/document-sets/ HTTP/1.1" 201 728
+2026-04-27 15:06:15,048 [INFO] django.server: "GET / HTTP/1.1" 200 5128
+2026-04-27 15:06:15,070 [INFO] django.server: "GET /api/v1/document-sets/ HTTP/1.1" 200 730
+2026-04-27 15:06:38,452 [INFO] analyzer.pipeline: Pipeline completed for document_set=2 status=ERROR
+2026-04-27 15:06:38,452 [INFO] django.server: "POST /api/v1/document-sets/ HTTP/1.1" 201 737
+2026-04-27 15:14:26,632 [INFO] django.server: "GET / HTTP/1.1" 200 6020
+2026-04-27 15:14:26,680 [INFO] django.server: "GET /api/v1/document-sets/ HTTP/1.1" 200 1468
+2026-04-27 15:14:52,273 [INFO] analyzer.pipeline: Pipeline completed for document_set=3 status=ERROR
+2026-04-27 15:14:52,287 [INFO] django.server: "POST /api/v1/document-sets/ HTTP/1.1" 201 735
+2026-04-27 15:16:04,926 [INFO] django.server: "GET / HTTP/1.1" 200 6910
+2026-04-27 15:16:05,308 [INFO] django.server: "GET /static/css/app.css HTTP/1.1" 200 380
+2026-04-27 15:16:25,360 [INFO] analyzer.pipeline: Pipeline completed for document_set=4 status=ERROR
+2026-04-27 15:16:25,393 [INFO] django.server: "POST / HTTP/1.1" 200 12193
+2026-04-27 15:18:10,240 [INFO] django.utils.autoreload: C:\Users\pc\Desktop\PROJET\django_app\services\pdf_service.py changed, reloading.
+2026-04-27 15:18:11,885 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2026-04-27 15:18:17,284 [INFO] django.utils.autoreload: C:\Users\pc\Desktop\PROJET\django_app\services\pipeline_service.py changed, reloading.
+2026-04-27 15:18:18,866 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2026-04-27 15:19:00,809 [WARNING] analyzer.pipeline: No text extracted from PDF document_set=5. If file is scanned, ensure Tesseract is installed/configured.
+2026-04-27 15:19:05,034 [INFO] analyzer.pipeline: Pipeline completed for document_set=5 status=ERROR
+2026-04-27 15:19:05,057 [INFO] django.server: "POST /api/v1/document-sets/ HTTP/1.1" 201 738
+2026-04-27 15:20:20,566 [WARNING] analyzer.pipeline: No text extracted from PDF document_set=6. If file is scanned, ensure Tesseract is installed/configured.
+2026-04-27 15:20:24,755 [INFO] analyzer.pipeline: Pipeline completed for document_set=6 status=ERROR
+2026-04-27 15:20:24,801 [INFO] django.server: "POST / HTTP/1.1" 200 13966
+2026-04-27 15:20:24,822 [INFO] django.server: "GET /static/css/app.css HTTP/1.1" 304 0
+2026-04-27 15:21:16,256 [INFO] django.utils.autoreload: C:\Users\pc\Desktop\PROJET\django_app\apps\analyzer\views.py changed, reloading.
+2026-04-27 15:21:17,902 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2026-04-27 15:23:25,464 [WARNING] analyzer.pipeline: No text extracted from PDF document_set=7. If file is scanned, ensure Tesseract is installed/configured.
+2026-04-27 15:23:29,684 [INFO] analyzer.pipeline: Pipeline completed for document_set=7 status=ERROR
+2026-04-27 15:23:29,743 [INFO] django.server: "POST / HTTP/1.1" 200 15440
+2026-04-27 15:23:29,954 [INFO] django.server: "GET /static/css/app.css HTTP/1.1" 200 670

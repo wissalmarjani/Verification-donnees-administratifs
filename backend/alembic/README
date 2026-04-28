@@ -1,0 +1,4 @@
+Run migrations:
+
+1. alembic revision --autogenerate -m "init"
+2. alembic upgrade head
